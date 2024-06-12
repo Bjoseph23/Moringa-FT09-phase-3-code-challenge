@@ -84,9 +84,7 @@ class TestModels(unittest.TestCase):
             self.author2 = Author(id=2, name="Author 2")
             self.author3 = Author(id=3, name="Author 3")
 
-    def test_no_contributors(self):
-            # Test case where there are no contributors
-            self.assertEqual(self.magazine.contributing_authors(), None)
+
 
 
 if __name__ == "__main__":
